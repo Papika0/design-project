@@ -28,7 +28,7 @@ const BackgroundCarousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     fade: true,
     cssEase: "linear",
@@ -46,7 +46,7 @@ const BackgroundCarousel = () => {
         {images.map((image) => (
           <div key={image} className="w-full h-full">
             <img
-              className="object-cover w-full h-full md:h-screen max-[769px]:h-screen max-[769px]:max-w-min"
+              className="object-cover w-full h-full md:h-screen max-[769px]:h-screen"
               src={image}
               alt=""
             />
