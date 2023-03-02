@@ -9,7 +9,7 @@ function LandingComponents({ category }) {
           Logo
         </h1>
         {category.map((elem) => (
-          <Link href={`/${elem.slug}`} key={elem.name}>
+          <Link href={`/category/${elem.slug}`} key={elem.name}>
             <p
               key={elem.name}
               className="text-white tracking-widest mb-4 lg:ml-24 md:ml-14 max-[480px]:hidden"

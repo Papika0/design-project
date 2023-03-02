@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { BackgroundCarousel, LandingComponents } from "./components";
+import { BackgroundCarousel, LandingComponents } from "../components";
 import { getCategories } from "../services/";
 
 export default function Home({ categories }) {
